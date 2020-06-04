@@ -7,6 +7,7 @@ import ListInput from './components/ListInput'
 export default function App() {
   const [goals, setGoals] = useState([])
   const [showModal, setShowModal] = useState(false)
+  console.log(goals)
 
   const goalHandler = (goalTitle) => {
     setGoals((currentGoals) => [
